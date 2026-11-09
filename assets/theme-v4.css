@@ -1,0 +1,133 @@
+/* PORTUGAL UNFILTERED — V4 CALM COASTAL THEME
+   Edit this one file to change the site's colors in future.
+   Ivory • sage green • charcoal • muted terracotta.
+*/
+:root {
+  --ink: #243b34;
+  --forest: #315a4e;
+  --deep: #29473e;
+  --sand: #f5f1e9;
+  --cream: #faf9f6;
+  --mint: #e9f0ea;
+  --terra: #8b5d47;
+  --gold: #b18a5c;
+  --muted: #62756a;
+  --line: #dce5dc;
+  --white: #ffffff;
+  --shadow: 0 20px 54px rgba(37, 64, 53, 0.09);
+  color-scheme: light;
+}
+body {background:var(--cream);color:var(--ink)}
+p, .lead, .rich p, .rich li, .legal-content p, .legal-content li {color:#51645a}
+.eyebrow {color:#775944}
+.lead {color:#4f635a}
+.site-header {background:rgba(250,249,246,.97);border-bottom:1px solid #e2e8e1}
+.brand-name span,.brand-symbol,.feature .num,.step-number,.faq-list summary:after {color:var(--terra)}
+.brand-sub {color:#637b6e}
+.nav-links>a:not(.btn) {color:#385348}
+.nav-links>a:hover,.nav-links>a[aria-current="page"] {color:#79543f}
+
+/* Calls to action: a refined evergreen rather than bright orange. */
+.btn,.btn.dark {background:#315a4e;color:#fff;border-color:transparent}
+.btn:hover,.btn.dark:hover {background:#234b3e;box-shadow:0 8px 22px rgba(33,75,61,.17)}
+.btn.outline {background:transparent;color:#315a4e;border:1px solid #b7c9bb}
+.btn.outline:hover {background:#e9f0ea;border-color:#769485}
+.btn.white {background:#fff;color:#29473e}
+.link-arrow {color:#315a4e}
+.link-arrow:hover {color:#79543f}
+a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible,summary:focus-visible {outline-color:#a16f4f}
+
+/* Light, calming homepage introduction. */
+.announcement {background:#e5ede6;color:#36564b;border-bottom:1px solid #dce8de}
+.announcement strong {color:#79563e}
+.hero {
+  background:linear-gradient(114deg,#e7eee7 0%,#f0f2eb 44%,#f8f4ec 100%);
+  color:#263e35;
+  border-bottom:1px solid #dce6dc;
+}
+.hero:before {
+  background:radial-gradient(ellipse at 78% 14%, rgba(183,205,182,.26),transparent 53%);
+}
+.hero h1 {color:#263d34}
+.hero h1 em {color:#805b43}
+.hero p {color:#52665b}
+.hero .eyebrow {color:#755a42}
+.hero-note {color:#62766b!important}
+.hero .btn.white {background:rgba(255,255,255,.52);border:1px solid #b3c3b6;color:#31594e}
+.hero .btn.white:hover {background:#fff}
+.art-frame {
+  background:linear-gradient(155deg,#b9d2c2 0%,#d9e4d5 42%,#e9d2b0 43%,#ddb78d 72%,#bd9078 100%);
+  box-shadow:19px 26px 58px rgba(50,75,62,.18);
+}
+.art-sun {background:#f6ddae}
+.art-sea {background:linear-gradient(180deg,#6d9b92,#44746e)}
+.art-hill {background:#8ba58d}
+.art-house:before {background:#ad7860}
+.art-stamp {background:#fcf9f1;color:#29473e}
+.art-stamp span {color:#825b45}
+.art-bottom {background:#fffdf8;color:#29473e;border-color:#e3e6db}
+.art-bottom small {color:#62766a}
+
+/* Calm surfaces and soft section separation. */
+.trust-strip {background:#edf2ec;border-bottom:1px solid #dde7db}
+.trust-inner span {color:#456357}
+.trust-inner b {color:#86634e}
+.section-tint,.planner-promo-section {background:#f3f2ed}
+.feature,.service-card,.guide,.form-card,.info-panel {background:#fffefd;border-color:#e1e9df}
+.tag {background:#e8f0e9;color:#305f4a}
+.tag.earth {background:#f2eae1;color:#76543c}
+.price {color:#315749}
+.checks li:before {color:#447662}
+.region-panel {background:#48675c}
+.region-panel p {color:#e7efe7}
+.region-panel .label {color:#ead2a5}
+.region-stat small {color:#d4e3d6}
+.region-tab {border-color:#cad8ce;color:#3d6353}
+.region-tab[aria-selected=true],.region-tab:hover {background:#3b6254;border-color:#3b6254}
+.quote-band {background:#e5ede4}
+.quote-band blockquote {color:#345548}
+.quote-band small {color:#61756a}
+.founder-illustration {background:linear-gradient(150deg,#deebe0,#f1e4d3)}
+.journal {border-left-color:#b48a6f}
+.founder-illustration .seal {background:#416859}
+.cta-section {background:#345a4e}
+.cta-grid p {color:#e2ece4}
+.footer {background:#263e36;color:#d1dfd5}
+.footer p,.footer small {color:#bbcfc1}
+.footer a:not(.brand) {color:#cbd9cf}
+.footer-bottom {border-top-color:#527064}
+
+/* All inner pages and the interactive planner share the same color language. */
+.page-hero {background:#eaf0e9}
+.page-hero:after {color:#bbd0bc}
+.breadcrumbs {color:#617969}
+.note-box {background:#f5f0e9;border-left-color:#a77a5e}
+.guide .guide-mark {background:#e9f1e9;color:#416b55}
+.field input,.field select,.field textarea {background:#fffefd;border-color:#cbdad0}
+.field input:focus,.field select:focus,.field textarea:focus {border-color:#3d6e5b;box-shadow:0 0 0 3px rgba(61,110,91,.13)}
+.form-notice,.banner-warning {background:#f8f1e9;border-color:#e7d6bd;color:#755941}
+.form-result {background:#edf4eb;border-color:#c1dac6}
+.source-links a {color:#315a4e}
+.planner-hero {background:linear-gradient(120deg,#e8f0e8,#f6f1e9)}
+.planner-card,.planner-info,.checklist-shell,.recommendation {background:#fffefd;border-color:#dde7dc;box-shadow:0 15px 35px rgba(37,64,53,.06)}
+.planner-info {background:#edf2eb}
+.planner-info .planner-side-deco {color:#b5cdb8}
+.choice-group .option:has(input:checked),.choice-row label:has(input:checked),.checkbox-row label:has(input:checked) {border-color:#4c7861;background:#edf4ed}
+.choice-group input,.checkbox-row input,.checklist-group label input {accent-color:#396d54}
+.choice-group .option strong {color:#2a4739}
+.quiz-intro {background:#f1f5ef;border-color:#dfe9de}
+.quiz-kicker {color:#496a52}
+.recommendation {background:#f5f8f3}
+.progress-fill {background:#588168}
+.promo-steps span {color:#916b4e}
+.promo-steps strong {color:#345a46}
+#result-areas .place-result {border-color:#dce8dc;background:#fffefd}
+#result-areas .place-result strong {color:#2e5846}
+
+@media (max-width:760px) {
+  .nav-links {background:var(--cream)}
+  .hero-grid {padding-top:58px}
+}
+
+/* Keep the closing call-to-action readable even with legacy inline color. */
+.cta-section .eyebrow {color:#f1dcbd!important}

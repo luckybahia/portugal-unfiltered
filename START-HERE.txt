@@ -1,0 +1,21 @@
+PORTUGAL UNFILTERED V5 — UPDATED SERVICE PRICES
+
+We updated the prices throughout the website:
+- Portugal Clarity Call: €79
+- Area & Home Reality Check: €149
+- Personal Move Roadmap: €259
+
+The relaxed V4 colors and interactive Move Planner are unchanged.
+
+HOW TO OPEN ON YOUR MAC:
+1. Download V5 ZIP and double-click it to extract it.
+2. In the Terminal window showing the old site, press Control + C.
+3. Paste these commands, one line at a time:
+
+cd ~/Downloads/portugal-unfiltered-v5
+python3 -m http.server 8000
+
+4. Open Safari and visit http://localhost:8000
+5. Scroll to the services section and check all three prices.
+
+Reminder: This website is running on your Mac only; enquiries and payments are not yet connected.

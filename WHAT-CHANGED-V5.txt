@@ -1,0 +1,9 @@
+PORTUGAL UNFILTERED — VERSION 5
+
+Only the advertised package prices were changed:
+Portugal Clarity Call        €49 -> €79
+Area & Home Reality Check    €129 -> €149
+Personal Move Roadmap        €299 -> €259
+
+Updated homepage, service pages, contact page, and README.
+Colors, styles, questions, recommendations, and payment functionality unchanged.
